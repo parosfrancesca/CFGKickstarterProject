@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ysabeau SC", sans-serif;
+    background-color: rgba(101, 159, 160, 0.1);
+  }
+  
+  .nav-bar {
+    background-color: #659fa0;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .nav-bar a {
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    transition: color 0.1s ease-in-out;
+  }
+  
+  .nav-bar a:hover {
+    color: #333;
+  }
+  
+  .nav-bar .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #659fa0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .nav-bar li:hover .dropdown {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .nav-bar .dropdown a {
+    padding: 10px;
+  }
+
+.slideshow-container{
+    position: sticky;
+  }
+  
+  .mySlides {
+    display: none;
+    max-width:100%;
+    height:auto;
+    position: sticky;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.458);
+  }
+  
+  .text {
+    color: #07401f93;
+    font-size: 150px;
+    padding: 5px 12px;
+    position: absolute;
+    bottom: 1200px;
+    width: 100%;
+    text-align:center;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .text2 {
+    color: #db99d768;
+    font-size: 150px;
+    padding: 5px 12px;
+    position: absolute;
+    bottom: 1200px;
+    width: 100%;
+    text-align:center;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .dotsection{
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #534a4a;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  div::selection {
+    display:none;
+  }
+  
+  h6 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+    color: #111111;
+  }  
+
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 4px 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #111111;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #659fa0;
+    margin: 1px 0;
+    padding: 2px;
+  }
+  
